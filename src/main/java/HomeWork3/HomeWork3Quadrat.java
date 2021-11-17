@@ -1,4 +1,4 @@
-package Lesson3;
+package HomeWork3;
 import java.util.Scanner;
 
 public class HomeWork3Quadrat {

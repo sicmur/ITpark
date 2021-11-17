@@ -1,5 +1,4 @@
-package Lesson3;
-
+package HomeWork3;
 /**
  * public static int factoring(int resultFactor) - первый метод;
  * public static long calc(long n) - второй метод.
@@ -18,7 +17,6 @@ public class HomeWork3Factorial {
         System.out.println("Факториал числа n 9! =" + " " + calc(9));
         System.out.println("Факториал числа n 10! =" + " " + calc(10));
         System.out.println("Факториал числа n 12! =" + " " + calc(12));
-
     }
 
     public static int factoring(int resultFactor) {
@@ -27,8 +25,6 @@ public class HomeWork3Factorial {
         } else {
             return resultFactor * factoring(resultFactor - 1);
         }
-
-
         /* по аналогии не работает
         public static long factor(long resultFactorTwo) {
             if (resultFactorTwo <= 1) {
@@ -36,7 +32,6 @@ public class HomeWork3Factorial {
             } else {
                 return resultFactorTwo * factor(resultFactorTwo - 1);
             }  */
-
     }
 
     public static long calc(long n) {
@@ -45,6 +40,4 @@ public class HomeWork3Factorial {
         else
             return n * calc(n - 1);
     }
-
 }
-
